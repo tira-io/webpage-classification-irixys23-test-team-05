@@ -17,6 +17,7 @@ def parse_args():
 
 def load_model(model_file):
     # Load the trained model
+    print("hello world")
     pipeline = joblib.load(model_file)
     return pipeline
 
